@@ -1,0 +1,73 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	overflow-x: hidden;
+}
+section{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+#first{
+	background:url(img1.jpg) no-repeat center /cover;
+}
+p{
+	margin:0;
+	font-size: 30px;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items:center;
+	font-family: 'Bitter', serif;
+	color: #F6E91B;
+	height: 70px;
+	font-size: 20px;
+	width:70%;
+	background:rgba(0,0,0,0.7);
+	border-radius: 20px;
+	position: fixed;
+	z-index: 4;
+}
+nav a{
+	transition: color 0.3s ease;
+		color:#26CFDA;
+
+}
+.logo{
+	font-family: 'Bad Script', cursive;
+	margin-left: 20px;
+}	
+a{
+	text-decoration: none;
+	margin-left: 30px;
+}
+.tel{
+	color:#26CFDA;
+	transition: background 0.5s ease;
+	cursor: pointer;
+}
+nav a:hover{
+		color:white;
+}
+#second{
+	background:url(img2.jpg) no-repeat center /cover;
+}
+#third{
+	background:url(img3.jpg) no-repeat center /cover;
+}
+#forth{
+	background:url(img4.jpg) no-repeat center /cover;
+}
+.connect{
+	position: absolute;
+	font-size: 80px;
+	font-family: 'Bad Script', cursive;
+	color:white;
+	right: 80px;
+	z-index: 5;
+	bottom: 20px;
+}
